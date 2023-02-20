@@ -1,6 +1,7 @@
 //your code here
 var btn = document.getElementById("btn");
-var numPtag = document.getElementBYId("respond");
+var numPtag = document.getElementBYId("num");
+var res = document.getElementById("respond");
 var inputValue = document.getElementById("guess").value;
 
 function randomNumGenerator(){
@@ -10,7 +11,7 @@ function randomNumGenerator(){
 	print();
 }
 function guessNum(){
-	input = number(document.getElementById("guess").value);
+	input = Number(document.getElementById("guess").value);
 }
 function print(){
 	if(Math.abs(randomNum - input)<=5){
