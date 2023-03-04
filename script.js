@@ -1,4 +1,3 @@
-//your code here
 const randomNumber = Math.floor(Math.random() * 100) + 1; // generates a random number between 1 and 100
 const output = document.getElementById("respond");
 const guessInput = document.getElementById("guess");
